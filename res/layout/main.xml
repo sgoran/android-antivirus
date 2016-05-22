@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/back"
+        android:text="Scan you device for malware 
+and spyware applications."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+    
+    <!--<ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/shield_icon" /> -->
+        
+<!--    <LinearLayout
+        android:id="@+id/kont"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         >-->
+
+        <!-- <ImageView
+            android:id="@+id/ikona"
+            android:layout_centerInParent="true"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:maxHeight="72dp"
+            android:maxWidth="72dp" 
+            android:minHeight="72dp"
+            android:minWidth="72dp"
+            /> -->
+
+        <!--<TextView
+            android:id="@+id/naslov"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=" "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" /> -->
+
+<!--   </LinearLayout> -->
+
+    <!--<LinearLayout
+        android:id="@+id/kont0"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:gravity="center_vertical|center_horizontal" >-->
+    
+       	<ProgressBar
+	        android:id="@+id/progressBar1"
+	        style="?android:attr/progressBarStyleHorizontal"
+	        android:layout_width="fill_parent"
+       	    android:layout_height="fill_parent"
+	        android:layout_marginTop="2dp"
+	        android:layout_marginBottom="2dp"
+	        android:layout_centerInParent="true"
+	        android:progressDrawable="@drawable/progress_bar" 
+        />
+
+       	<TextView
+       	    android:id="@+id/percent"
+       	    android:layout_width="wrap_content"
+       	    android:layout_height="wrap_content"
+       	    android:layout_centerInParent="true"
+       	    android:layout_marginTop="14dp"
+       	    android:text="0 %"
+       	    android:textStyle="bold"
+       	    android:textAppearance="?android:attr/textAppearanceSmall"
+       	    android:textColor="#449def"
+       	    android:textSize="50dp" />
+        
+      <!-- </LinearLayout> -->
+    
+    
+    <Button
+        android:id="@+id/button1"
+        style="@style/ButtonText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_centerInParent="true"
+        android:background="@drawable/btn_blue"
+        android:text="START SCAN" />
+
+    
+
+</RelativeLayout>

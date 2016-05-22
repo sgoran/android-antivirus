@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- fragment for view pager -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/aaa" >
+
+    <ImageView
+        android:id="@+id/slika"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="5dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/naslov"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:padding="2dp"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#449def" />
+
+        <TextView
+            android:id="@+id/paket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="TextView" />
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/critical"
+        android:layout_marginTop="17dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="10dp"
+        android:layout_height="12dp"
+        android:text="6" />
+    
+    <ImageView
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="17dp"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:src="@drawable/play" />
+
+
+
+</LinearLayout>
