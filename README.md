@@ -5,6 +5,6 @@ group them in tabs by permissions.
 
 It's not a real antivirus (a simulation kinda) but can be useful.
 
-(https://raw.githubusercontent.com/sgoran/android-antivirus/master/sc/1.png)
+![alt tag](https://raw.githubusercontent.com/sgoran/android-antivirus/master/sc/1.png)
 (https://raw.githubusercontent.com/sgoran/android-antivirus/master/sc/2.png)
 (https://raw.githubusercontent.com/sgoran/android-antivirus/master/sc/3.png)
